@@ -4,7 +4,6 @@ body{background-color: #8b9687;}
 header{background-image: url(images/beerpicture.jpg); background-size: cover; background-position: center;
 margin: 1rem;
 padding: 1rem 1rem .5rem;
-
 }
 
 nav{text-align: center ;}
@@ -49,13 +48,28 @@ color: #dee2dc;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 footer{background-color: rgb(54, 54, 54);
-    text-align: center;;
+    text-align: center;
 margin: 1rem;
-padding: 1rem;
+padding: .5rem;
 color: #dee2dc;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+a{color: #dee2dc;}
+
+.gallery{display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;}
+
+    .gallery img{
+        margin: .4rem;
+        max-width: 60%;}
+
+
 @media (min-width:1000px){
     header{display: flex;
     justify-content: space-between;
-    align-items: flex-end;}
+    align-items: flex-end;
+    padding-top: 5rem;
+    }
 }
