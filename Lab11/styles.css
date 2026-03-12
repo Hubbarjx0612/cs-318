@@ -3,8 +3,7 @@ body{background-color: #8b9687;}
 
 header{background-image: url(images/beerpicture.jpg); background-size: cover; background-position: center;
 margin: 1rem;
-padding: 1rem 1rem .5rem;
-}
+padding: 1rem 1rem .5rem;}
 
 nav{text-align: center ;}
 
@@ -16,11 +15,6 @@ margin: 1rem .1rem 0rem;
 padding: .5rem 1.3rem .5rem;}
 
 nav>a:hover{background-color: rgb(73, 88, 79);}
-
-h.eader{position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;}
 
 .Story{background-color: #283324;
 margin: 1rem;
@@ -57,19 +51,13 @@ a{color: #dee2dc;}
 
 .gallery{display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 1rem;
-    padding: 1rem;}
+    justify-content: space-evenly;}
 
-    .gallery img{
-        margin: .4rem;
-        max-width: 60%;}
-
+.gallery>img{margin: .4rem;}    
 
 @media (min-width:1000px){
+    .gallery>img{width: 30%;}
     header{display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-top: 5rem;
-    }
-}
+    padding-top: 5rem;}}
