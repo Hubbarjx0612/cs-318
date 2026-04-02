@@ -1,10 +1,8 @@
  
 body{background-color: #330202;
-    color(#fff)
-
+    color: #fff;
 font-family: 'EB Garamond', serif;
-
- margin: 0}
+ margin: 0;}
 
  h1,h2{ font-family: 'Cinzel Decorative', cursive;
     color: #d9ba6c}
@@ -57,11 +55,39 @@ section:nth-child(2){display:block;}
 section>img{max-height: 10rem;
 grid-row-start:1;}
 
+h3{grid-column-start: 2;
+grid-row-start: 1;}
+
+h4{grid-column-start: 2;
+grid-row-start: 2;}
+/*stuck here*/
+
+p{grid-column-start: 1;
+grid-column-end: 5;}
+
+.ragnarok section:nth-child(5){display:block;}
+
+@media (min-width: 800px){
+    main{ display:grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1rem;}
+.title{grid-column: span 2;}
+section:nth-child(2){grid-column: span 2;}
+.ragnarok{display:block;}}
+
+@media (min-width: 1100px){
+    body{display:grid;
+        grid-template-columns: 20rem auto;}
+    header{grid-column: span 3;}
+
+    .sidenav{grid-column: 1;}
+    header{display:flex;
+    justify-content: space-between;}
+
+    .sidenav>a{display:block;
+    text-align: right;}}
+        
+    
 
 
-h3{grid-area: 1/4/3/5;}
 
-h4{grid-area: 1/44/5;}
-
-p{grid-column:1/4;
-grid-row:3/4;}
