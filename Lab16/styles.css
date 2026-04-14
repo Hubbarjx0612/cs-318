@@ -78,9 +78,6 @@ animation: rotate 2s linear infinite alternate;}
 .myrobot{animation: bounce 1s ease-in-out infinite alternate;}
 @keyframes bounce{from{bottom: 12rem;} to{bottom: 30rem; transform: rotate(360deg);}}
 
-
-
-
 .rover:hover{animation-play-state: paused;}
 
 header{z-index: 3;}
