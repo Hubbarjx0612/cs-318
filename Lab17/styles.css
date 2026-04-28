@@ -1,0 +1,92 @@
+header{background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 2rem;}
+
+    header img{height: 3rem;}
+    header div{display: flex;
+        justify-content: center;
+    align-items: center;}
+
+header a{margin: 1rem;}
+
+main{background-color: rgb(242, 233, 221);}
+
+.title{background-image: url(images/background-image.png);
+    background-size: cover;
+    background-repeat: none;
+    padding: 7rem 0 7rem 3rem;
+    margin: 1rem 3rem;
+color:rgb(255, 255, 255);}
+
+
+.info{background-color: rgb(255, 255, 255);
+margin: 1rem 3rem;
+padding: 0rem 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 1rem;
+box-shadow: 2px 2px 2px rgba(11, 11, 11, 0.6);}
+
+.infot{background-color: rgb(255, 255, 255);
+margin: 1rem 3rem;
+padding: 1rem 2rem;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 1rem;
+box-shadow: 2px 2px 2px rgba(11, 11, 11, 0.6);}
+.infot img{height: 9rem;}
+
+
+.info img{height: 9rem;}
+
+.goods{background-color: rgb(224, 112, 131);
+    margin: 0rem 3rem;
+    padding: 0rem 1rem;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+box-shadow: 2px 2px 2px rgba(11, 11, 11, 0.6);}
+
+.goods img{height: 2rem;}
+
+
+.forms img{height: 6rem; width: 6rem;}
+.forms{display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+gap: 1rem;
+padding: 1rem;
+margin: 0rem 3rem;}
+
+
+.turtle{background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: .1rem;
+width: 9rem;
+height: 12rem;
+padding: 1rem;
+box-shadow: 2px 2px 2px rgba(11, 11, 11, 0.6);}
+
+.turtle h4{text-align: center;
+margin: 0;}
+
+input[type="number"]{width: 5.5rem;}
+button{width: 8rem;}
+
+footer{background-color: aquamarine;
+display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 1rem;}
+
+footer img{height: 3rem;
+margin: 0rem 1rem;}
