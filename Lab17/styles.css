@@ -94,6 +94,7 @@ margin: 0;}
 .order{display: flex;
     flex-wrap: wrap;
     flex-direction: flex;
+    justify-content: center;
     margin: 1rem 15rem 0rem 15rem;
     padding-bottom: 2rem;
     gap: 2rem;
@@ -117,12 +118,46 @@ margin: 0rem 1rem;}
 
 main{font-family: poppins;}
 
-@media(max-width: 500px){
+   .hamburger{display: none;}
 
-        .hamburger{display: none;}
 
-.title, .info, .infot, .goods{margin: 1rem;} 
-.order{margin: 3rem;}
+
+@media(max-width: 687px){
+
+     
+
+ .hamburger{width: 40px;
+    padding: .5rem;
+display: block;}   
+    
+    .hamburger hr{margin: 1 0;
+    border: 2px solid #f0575c;}
+
+header .toggle-nav{background-color: #f0575c;
+position:fixed;
+ width:80%;
+ top:8rem;
+display: none;}  
+ 
+header .toggle-nav a{ display:block;
+color: #fdf7e5;
+text-align: center;
+ text-decoration: none;
+ padding: 3rem;
+ border:1px solid #fdf7e5;
+}
+
+header .toggle-nav.show{
+    display: block;
+}
+header .toggle-nav img{display: none;}
+
+
+
+.title, .info, .infot, .goods{margin: 2rem;} 
+.order{margin: 1rem;}
+
+.title{margin-top: 0;}
 
 .info{display: flex;
     flex-direction: column;
@@ -138,8 +173,6 @@ padding-top:1rem;}
 justify-content: space-between;
 align-items: center;
 padding-top:1rem;}
-
-/*don't know how to get this to line up*/
 
 
 }
